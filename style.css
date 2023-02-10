@@ -11,31 +11,32 @@ main {
     background-image: url(../1.jpeg);
     background-repeat: no-repeat;
     background-position: 50%;
-    background-color: black;
-    opacity: 2;
+    background-color: lightgray;
+    opacity: 10;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .row {
+    width: 500px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    /* vertically */
     justify-content: center;
-    /* horizontally */
-    width: 1000px;
+    text-align: center;
+    font-size: 30px;
     margin: 10px;
-    font-size: 40px;
-    color: white;
 }
 
 #search {
-    font-size: 25px;
+    font-size: 24px;
+    font-size: 24px;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 40px;
     border: none;
     outline: none;
-    box-shadow: 0px 0px 5px grey;
+    box-shadow: 0px 0px 12px grey;
+    text-align: center;
 }
